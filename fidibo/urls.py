@@ -24,4 +24,5 @@ urlpatterns = [
     path('fidiplus/', include('fidiplus.urls')),
     path('magazines/', include('magazines.urls')),
     path('podcasts/', include('podcasts.urls')),
+    path('educations/', include('educations.urls')),
 ]
