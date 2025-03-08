@@ -21,4 +21,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path ('ebooks/', include('ebooks.urls')),
     path('audiobooks/', include('audiobooks.urls')),
+    path('fidiplus/', include('fidiplus.urls')),
+    path('magazines/', include('magazines.urls')),
+    path('podcasts/', include('podcasts.urls')),
 ]
